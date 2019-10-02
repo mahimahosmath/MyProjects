@@ -21,7 +21,7 @@ browser.get('https://weathershopper.pythonanywhere.com/sunscreen')
 # Checking if the control lands on the right web page 
 if browser.title!="The best moisturizers in the world!":
     print("page found")
-    
+    browser.close()
     exit()
 else:
     print("Page not found")
