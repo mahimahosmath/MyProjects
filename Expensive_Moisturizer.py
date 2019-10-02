@@ -26,7 +26,7 @@ if browser.title!="The best moisturizers in the world!":
 else:
     print("Page not found")
 
-# Creating a list with prizes of all moistirizers
+# Creating a list with prizes of all moisturizers
 moisturizer_prices=list()
 prices_box=browser.find_elements_by_xpath('//div[@class="text-center col-4"]//descendant::p[contains(text(),"Price")]')
 for i in prices_box:
