@@ -9,7 +9,6 @@
  4) Click on the cart
  5) Check if all the moisturizers are added by compareing list of products in the cart againist list of products to be added
  6) Close the browser
- Author : Bilwa Gutthi
 """
 
 from selenium import webdriver
